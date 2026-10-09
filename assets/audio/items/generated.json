@@ -1,0 +1,383 @@
+{
+  "version": 1,
+  "model": "stable-audio-3-small-sfx",
+  "status": "ready",
+  "expected_count": 31,
+  "ready_count": 31,
+  "sounds": {
+    "antidote": {
+      "use": "antidote/use.wav"
+    },
+    "barrier": {
+      "use": "barrier/use.wav"
+    },
+    "doom": {
+      "use": "doom/use.wav"
+    },
+    "drain-spell": {
+      "use": "drain-spell/use.wav"
+    },
+    "fear-spell": {
+      "use": "fear-spell/use.wav"
+    },
+    "fire-spell": {
+      "use": "fire-spell/use.wav"
+    },
+    "fire-staff": {
+      "use": "fire-staff/use.wav"
+    },
+    "flame-sword": {
+      "attack": "flame-sword/attack.wav"
+    },
+    "flash": {
+      "use": "flash/use.wav"
+    },
+    "freeze-spell": {
+      "use": "freeze-spell/use.wav"
+    },
+    "great-potion": {
+      "use": "great-potion/use.wav"
+    },
+    "greatsword": {
+      "attack": "greatsword/attack.wav"
+    },
+    "high-potion": {
+      "use": "high-potion/use.wav"
+    },
+    "holy-light": {
+      "use": "holy-light/use.wav"
+    },
+    "iron-shield": {
+      "block": "iron-shield/block.wav"
+    },
+    "iron-sword": {
+      "attack": "iron-sword/attack.wav"
+    },
+    "knockback-staff": {
+      "use": "knockback-staff/use.wav"
+    },
+    "magic-missile": {
+      "use": "magic-missile/use.wav"
+    },
+    "mirror-shield": {
+      "block": "mirror-shield/block.wav"
+    },
+    "poison-shield": {
+      "block": "poison-shield/block.wav"
+    },
+    "poison-spell": {
+      "use": "poison-spell/use.wav"
+    },
+    "polymorph": {
+      "use": "polymorph/use.wav"
+    },
+    "potion": {
+      "use": "potion/use.wav"
+    },
+    "regeneration": {
+      "use": "regeneration/use.wav"
+    },
+    "revive-ring": {
+      "revive": "revive-ring/revive.wav"
+    },
+    "sleep-scroll": {
+      "use": "sleep-scroll/use.wav"
+    },
+    "spear": {
+      "attack": "spear/attack.wav"
+    },
+    "trap-stone": {
+      "use": "trap-stone/use.wav"
+    },
+    "warp-scroll": {
+      "use": "warp-scroll/use.wav"
+    },
+    "wooden-shield": {
+      "block": "wooden-shield/block.wav"
+    },
+    "wooden-sword": {
+      "attack": "wooden-sword/attack.wav"
+    }
+  },
+  "details": {
+    "antidote": {
+      "use": {
+        "duration_seconds": 1.3582,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "1ca215d0ea460d4c9d47ea2cff9558be8f9ca3446468b0162c5ac8fc37e18ae8"
+      }
+    },
+    "barrier": {
+      "use": {
+        "duration_seconds": 1.3756,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "21ec578d402005b78e2f43d60e2c7b0d3f1f82b7d6f12bcb0aa6c590b249f2c1"
+      }
+    },
+    "doom": {
+      "use": {
+        "duration_seconds": 1.63,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "aab8540772497ec9248c0bb1f1bf4d0effa48e79e01d83962edbb74462824492"
+      }
+    },
+    "drain-spell": {
+      "use": {
+        "duration_seconds": 1.5546,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "010aa30ba30a055a3d9e1b7925d4cdb7559def6992df341d838ac4e2f3960a40"
+      }
+    },
+    "fear-spell": {
+      "use": {
+        "duration_seconds": 1.5002,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "95899041abbf7fb06d25b141d8abff98cac72eb99e6c275f3cdb70f20adcd51a"
+      }
+    },
+    "fire-spell": {
+      "use": {
+        "duration_seconds": 1.3303,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "35a5b1a745c7498295165462d6fdd4643dc3f245fdec5e9f680a95edbc8cf1da"
+      }
+    },
+    "fire-staff": {
+      "use": {
+        "duration_seconds": 1.5908,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "6c50b3bc09940b5f94be7a1ee1493518d01432308db41c665dc6dada407f2fbd"
+      }
+    },
+    "flame-sword": {
+      "attack": {
+        "duration_seconds": 0.7878,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "4509b881d84959df66330579baef693d054e264ae56b317178e0c2904c6cdba5"
+      }
+    },
+    "flash": {
+      "use": {
+        "duration_seconds": 1.4009,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "e6868e250fc9681036a1df0c4636fc4ab57990eb6633530de908c2fabaea1dde"
+      }
+    },
+    "freeze-spell": {
+      "use": {
+        "duration_seconds": 1.4535,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "cc827da2c418c87dacd790984d1dc22a716ccca56583ddb44ff48ed03e22cdf1"
+      }
+    },
+    "great-potion": {
+      "use": {
+        "duration_seconds": 1.1316,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "0d78f5c06369e87bc61685e668a086419985ff9cdd3977c08645a1c25d5021c2"
+      }
+    },
+    "greatsword": {
+      "attack": {
+        "duration_seconds": 1.1561,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "0ceb05aab7ac8b65e53c713c082e8bfee463bda1210330d4b632012375d8775a"
+      }
+    },
+    "high-potion": {
+      "use": {
+        "duration_seconds": 0.668,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "45576e5abd75a42fc569733093cdb1dc427a598d9ee4ebcfb3c0d236348d63e6"
+      }
+    },
+    "holy-light": {
+      "use": {
+        "duration_seconds": 1.5048,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "a994216b742ab62f227f4dc2974faa41687b6902d9ad31f3fb36a8367986fc97"
+      }
+    },
+    "iron-shield": {
+      "block": {
+        "duration_seconds": 0.8465,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "042b435b3bbfdcdfd46c20b243c4c64c24e0a8616ed5e298d7373e24fab65b63"
+      }
+    },
+    "iron-sword": {
+      "attack": {
+        "duration_seconds": 0.8322,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "fce5b312cea6a2cd631bcbb0755598d06c9885b5ee23c60156a3b3098557976d"
+      }
+    },
+    "knockback-staff": {
+      "use": {
+        "duration_seconds": 1.3884,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "6066ab09d65306b90282d1b10efe375b58739d4e81260b27756ad03151edb746"
+      }
+    },
+    "magic-missile": {
+      "use": {
+        "duration_seconds": 1.1933,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "74b381066fd62196be668bb1688d3ab3ff1d547d55dc69551c75c62d09b76d8e"
+      }
+    },
+    "mirror-shield": {
+      "block": {
+        "duration_seconds": 0.7811,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "6c63ea53cfd553536cbf5098df5dc21c037a1c5c3e4df4174f730d74b70d10e4"
+      }
+    },
+    "poison-shield": {
+      "block": {
+        "duration_seconds": 1.4355,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "c54a14c5d37a4e66261b10b0f0d82b9c9d08af04601e84d3334683b35fdd69ef"
+      }
+    },
+    "poison-spell": {
+      "use": {
+        "duration_seconds": 1.43,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "ad32be39c8f379c16f09698f3c2b3cd0d2df4f24346d6716ead28442dbf9451b"
+      }
+    },
+    "polymorph": {
+      "use": {
+        "duration_seconds": 1.2596,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "0a5ead8db14375ec7926ee2406bc758a874e7ce68bc1f074eacc75148f4fc625"
+      }
+    },
+    "potion": {
+      "use": {
+        "duration_seconds": 1.3284,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "47e61a23bb942aaee7da3a082e9ed934dc490609192befe39a50dcfcba49a873"
+      }
+    },
+    "regeneration": {
+      "use": {
+        "duration_seconds": 1.6029,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "66457f71141a18de830a0aa49457cc44518ec4219688b13854b96df5e6849ca7"
+      }
+    },
+    "revive-ring": {
+      "revive": {
+        "duration_seconds": 1.1254,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "99664bceacd9a908640d8e919c07ef1efea94f942994f34dc30addab2c71c4dd"
+      }
+    },
+    "sleep-scroll": {
+      "use": {
+        "duration_seconds": 1.3526,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "82dfa3c4a7d75ff500ceb055b4b9a645d84050c24e00927560d0f4426d46366e"
+      }
+    },
+    "spear": {
+      "attack": {
+        "duration_seconds": 0.9117,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "a0af6e0db7e643e5bfe3c52ab768cdf6d96a129dbfc82f0ce93909276cff4ac8"
+      }
+    },
+    "trap-stone": {
+      "use": {
+        "duration_seconds": 1.2684,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "3589cff01e5bc3f2f1dd25e088bed1f212e033548d08903cedd2422665bfdabc"
+      }
+    },
+    "warp-scroll": {
+      "use": {
+        "duration_seconds": 1.2868,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "43aea243330227c4bfb311e4e0433607565da4b4608769a0df531c764257d898"
+      }
+    },
+    "wooden-shield": {
+      "block": {
+        "duration_seconds": 0.4416,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "f00f23b0d8234d8379d0f41529a331b350f031fb93661fed9affe43a5eeed31d"
+      }
+    },
+    "wooden-sword": {
+      "attack": {
+        "duration_seconds": 1.2331,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 0.9,
+        "sha256": "8e1b60ff8ed26a45d10571b59216397a276f0171f0028776d9d83b64855e446e"
+      }
+    }
+  }
+}

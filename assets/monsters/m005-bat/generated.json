@@ -1,0 +1,75 @@
+{
+  "monster_id": "m005-bat",
+  "game_monster_id": 5,
+  "status": {
+    "model": "ready",
+    "blender": "ready",
+    "rigging": "ready",
+    "animations": "ready",
+    "sounds": "ready",
+    "game_registration": "configured"
+  },
+  "model": {
+    "path": "/assets/monsters/m005-bat/model/game/m005-bat-motion-v2.glb?motion=1c4fb98ccbe0",
+    "rig_archetype": "flying",
+    "scale": 0.7,
+    "foot_origin": true,
+    "up_axis": "Y",
+    "forward_axis": "+Z"
+  },
+  "animations": {
+    "idle": {
+      "clip": "Quality_Idle",
+      "loop": true
+    },
+    "walk": {
+      "clip": "Quality_Walk",
+      "loop": true
+    },
+    "attack": {
+      "clip": "Quality_Attack",
+      "loop": false,
+      "attack_sound_time": 0.08,
+      "hit_time": 0.21,
+      "windup_time": 0.08,
+      "recovery_end": 0.36,
+      "playback_speed": 1
+    },
+    "hit": {
+      "clip": "Quality_Hit",
+      "loop": false
+    },
+    "death": {
+      "clip": "Quality_Death",
+      "loop": false,
+      "presentation_duration_ms": 1000
+    }
+  },
+  "sounds": {
+    "attack_voice": [
+      "audio/attack.wav"
+    ],
+    "hit": [],
+    "death": [
+      "audio/death.wav"
+    ]
+  },
+  "motion_library": {
+    "family": "flying",
+    "variant": "bat",
+    "reused": [],
+    "original_model_path": "/assets/monsters/m005-bat/model/game/m005-bat-rigged.glb",
+    "original_walk_clip": "Fly",
+    "blend_path": "public/assets/monsters/m005-bat/model/blender/m005-bat-motion-v2.blend",
+    "version": 2,
+    "fps": 30,
+    "authored": true,
+    "authored_clips": [
+      "Idle",
+      "Walk",
+      "Attack",
+      "Hit",
+      "Death"
+    ]
+  }
+}

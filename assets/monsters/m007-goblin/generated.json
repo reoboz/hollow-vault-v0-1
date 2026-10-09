@@ -1,0 +1,94 @@
+{
+  "monster_id": "m007-goblin",
+  "game_monster_id": 7,
+  "status": {
+    "model": "ready",
+    "blender": "ready",
+    "rigging": "ready",
+    "animations": "ready",
+    "sounds": "ready",
+    "game_registration": "configured"
+  },
+  "model": {
+    "path": "/assets/monsters/m007-goblin/model/game/m007-goblin-motion-v3.glb?motion=spear-range-v1",
+    "rig_archetype": "humanoid",
+    "scale": 0.7,
+    "foot_origin": true,
+    "up_axis": "Y",
+    "forward_axis": "+Z"
+  },
+  "animations": {
+    "idle": {
+      "clip": "Quality_Idle",
+      "loop": true
+    },
+    "walk": {
+      "clip": "Quality_Walk",
+      "loop": true
+    },
+    "attack": {
+      "clip": "Quality_Attack",
+      "loop": false,
+      "attack_sound_time": 0.08,
+      "hit_time": 0.21,
+      "windup_time": 0.08,
+      "recovery_end": 0.36,
+      "playback_speed": 1
+    },
+    "attack_close": {
+      "clip": "Quality_Attack",
+      "loop": false,
+      "attack_sound_time": 0.08,
+      "hit_time": 0.21,
+      "windup_time": 0.08,
+      "recovery_end": 0.36,
+      "playback_speed": 1
+    },
+    "attack_far": {
+      "clip": "Quality_Attack_Far",
+      "loop": false,
+      "attack_sound_time": 0.12,
+      "hit_time": 0.21,
+      "windup_time": 0.16,
+      "recovery_end": 0.40,
+      "playback_speed": 1
+    },
+    "hit": {
+      "clip": "Quality_Hit",
+      "loop": false
+    },
+    "death": {
+      "clip": "Quality_Death",
+      "loop": false,
+      "presentation_duration_ms": 1000
+    }
+  },
+  "sounds": {
+    "attack_voice": [
+      "audio/attack.wav"
+    ],
+    "hit": [],
+    "death": [
+      "audio/death.wav"
+    ]
+  },
+  "motion_library": {
+    "family": "biped",
+    "variant": "spear",
+    "reused": [],
+    "original_model_path": "/assets/monsters/m007-goblin/model/game/m007-spearwielding-goblin-rigged.glb",
+    "original_walk_clip": "Walk",
+    "blend_path": "public/assets/monsters/m007-goblin/model/blender/m007-goblin-motion-v3.blend",
+    "version": 3,
+    "fps": 30,
+    "authored": true,
+    "authored_clips": [
+      "Idle",
+      "Walk",
+      "Attack",
+      "Attack_Far",
+      "Hit",
+      "Death"
+    ]
+  }
+}

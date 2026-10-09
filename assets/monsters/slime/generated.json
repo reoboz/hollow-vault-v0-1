@@ -1,0 +1,78 @@
+{
+  "monster_id": "slime",
+  "game_monster_id": 1,
+  "status": {
+    "model": "ready",
+    "blender": "ready",
+    "animations": "ready",
+    "sounds": "ready",
+    "game_registration": "configured"
+  },
+  "model": {
+    "path": "/assets/monsters/slime/model/game/slime-motion-v2.glb?motion=616fcb0eb239",
+    "rig_archetype": "blob",
+    "scale": 0.6,
+    "foot_origin": true,
+    "up_axis": "Y",
+    "forward_axis": "+Z"
+  },
+  "animations": {
+    "idle": {
+      "clip": "Quality_Idle",
+      "loop": true
+    },
+    "walk": {
+      "clip": "Quality_Walk",
+      "loop": true
+    },
+    "attack": {
+      "clip": "Quality_Attack",
+      "loop": false,
+      "attack_sound_time": 0.08,
+      "hit_time": 0.21,
+      "windup_time": 0.08,
+      "recovery_end": 0.36,
+      "playback_speed": 1
+    },
+    "hit": {
+      "clip": "Quality_Hit",
+      "loop": false
+    },
+    "death": {
+      "clip": "Quality_Death",
+      "loop": false,
+      "presentation_duration_ms": 1000
+    }
+  },
+  "sounds": {
+    "attack_voice": [
+      "sounds/game/attack_03.mp3"
+    ],
+    "hit": [],
+    "death": [
+      "sounds/game/death_02.mp3"
+    ]
+  },
+  "source_audio_format": "mp3",
+  "game_audio_format": "mp3",
+  "sample_rate": 48000,
+  "channels": 2,
+  "motion_library": {
+    "family": "blob",
+    "variant": "gel",
+    "reused": [],
+    "original_model_path": "/assets/monsters/slime/model/game/slime-animated-smoothed.glb",
+    "original_walk_clip": "Slime_Move",
+    "blend_path": "public/assets/monsters/slime/model/blender/slime-motion-v2.blend",
+    "version": 2,
+    "fps": 30,
+    "authored": true,
+    "authored_clips": [
+      "Idle",
+      "Walk",
+      "Attack",
+      "Hit",
+      "Death"
+    ]
+  }
+}

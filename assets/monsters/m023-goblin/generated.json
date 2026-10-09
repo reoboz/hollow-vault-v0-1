@@ -1,0 +1,77 @@
+{
+  "monster_id": "m023-goblin",
+  "game_monster_id": 23,
+  "status": {
+    "model": "ready",
+    "blender": "ready",
+    "rigging": "ready",
+    "animations": "ready",
+    "sounds": "ready",
+    "game_registration": "configured"
+  },
+  "model": {
+    "path": "/assets/monsters/m023-goblin/model/game/m023-goblin-motion-v2.glb?motion=60ca398091bc",
+    "rig_archetype": "humanoid",
+    "scale": 1,
+    "foot_origin": true,
+    "up_axis": "Y",
+    "forward_axis": "+Z"
+  },
+  "animations": {
+    "idle": {
+      "clip": "Quality_Idle",
+      "loop": true
+    },
+    "walk": {
+      "clip": "Walking",
+      "loop": true,
+      "playback_speed": 1
+    },
+    "attack": {
+      "clip": "Quality_Attack",
+      "loop": false,
+      "attack_sound_time": 0.08,
+      "hit_time": 0.21,
+      "windup_time": 0.08,
+      "recovery_end": 0.36,
+      "playback_speed": 1
+    },
+    "hit": {
+      "clip": "Quality_Hit",
+      "loop": false
+    },
+    "death": {
+      "clip": "Quality_Death",
+      "loop": false,
+      "presentation_duration_ms": 1000
+    }
+  },
+  "sounds": {
+    "attack_voice": [
+      "audio/attack.wav"
+    ],
+    "hit": [],
+    "death": [
+      "audio/death.wav"
+    ]
+  },
+  "motion_library": {
+    "family": "biped",
+    "variant": "throw",
+    "reused": [
+      "m003:Idle_10",
+      "own:Walking",
+      "m028:dying_backwards"
+    ],
+    "original_model_path": "/assets/monsters/m023-goblin/model/game/m023-goblin-bomber-animated-v1.glb",
+    "original_walk_clip": "Walking",
+    "blend_path": "public/assets/monsters/m023-goblin/model/blender/m023-goblin-motion-v2.blend",
+    "authored_clips": [
+      "Attack",
+      "Hit"
+    ],
+    "version": 2,
+    "fps": 30,
+    "authored": false
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "monster_id": "m008-slime",
+  "game_monster_id": 8,
+  "status": {
+    "model": "ready",
+    "blender": "ready",
+    "rigging": "ready",
+    "animations": "ready",
+    "sounds": "ready",
+    "game_registration": "configured"
+  },
+  "model": {
+    "path": "/assets/monsters/m008-slime/model/game/m008-slime-motion-v2.glb?motion=9e7a816418eb",
+    "rig_archetype": "blob",
+    "scale": 0.7,
+    "foot_origin": true,
+    "up_axis": "Y",
+    "forward_axis": "-Z"
+  },
+  "animations": {
+    "idle": {
+      "clip": "Quality_Idle",
+      "loop": true
+    },
+    "walk": {
+      "clip": "Quality_Walk",
+      "loop": true
+    },
+    "attack": {
+      "clip": "Quality_Attack",
+      "loop": false,
+      "attack_sound_time": 0.08,
+      "hit_time": 0.21,
+      "windup_time": 0.08,
+      "recovery_end": 0.36,
+      "playback_speed": 1
+    },
+    "hit": {
+      "clip": "Quality_Hit",
+      "loop": false
+    },
+    "death": {
+      "clip": "Quality_Death",
+      "loop": false,
+      "presentation_duration_ms": 1000
+    }
+  },
+  "sounds": {
+    "attack_voice": [
+      "audio/attack.wav"
+    ],
+    "hit": [],
+    "death": [
+      "audio/death.wav"
+    ]
+  },
+  "motion_library": {
+    "family": "blob",
+    "variant": "mud",
+    "reused": [],
+    "original_model_path": "/assets/monsters/m008-slime/model/game/m008-mudmellow-rigged.glb",
+    "original_walk_clip": "Hop",
+    "blend_path": "public/assets/monsters/m008-slime/model/blender/m008-slime-motion-v2.blend",
+    "version": 2,
+    "fps": 30,
+    "authored": true,
+    "authored_clips": [
+      "Idle",
+      "Walk",
+      "Attack",
+      "Hit",
+      "Death"
+    ]
+  }
+}
