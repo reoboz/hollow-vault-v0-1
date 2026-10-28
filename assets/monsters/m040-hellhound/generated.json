@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m040-hellhound/model/game/m040-hellhound-motion-v2.glb?motion=a0a604b14446",
+    "path": "/assets/monsters/m040-hellhound/model/game/m040-hellhound-motion-v2.glb?motion=a0a604b14446&tex=656d32272ac9",
     "rig_archetype": "large_beast",
     "scale": 1,
     "foot_origin": true,

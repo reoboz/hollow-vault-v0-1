@@ -9,7 +9,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/slime/model/game/slime-motion-v2.glb?motion=616fcb0eb239",
+    "path": "/assets/monsters/slime/model/game/slime-motion-v2.glb?motion=616fcb0eb239&tex=447de0f11766",
     "rig_archetype": "blob",
     "scale": 0.6,
     "foot_origin": true,

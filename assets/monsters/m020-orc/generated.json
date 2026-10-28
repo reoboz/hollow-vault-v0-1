@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m020-orc/model/game/m020-orc-motion-v2.glb?motion=f043aef16ec1",
+    "path": "/assets/monsters/m020-orc/model/game/m020-orc-motion-v2.glb?motion=f043aef16ec1&tex=6bc58701ae28",
     "rig_archetype": "humanoid",
     "scale": 1,
     "foot_origin": true,

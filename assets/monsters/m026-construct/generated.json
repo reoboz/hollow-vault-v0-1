@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m026-construct/model/game/m026-construct-motion-v2.glb?motion=cac9e40d5dd9",
+    "path": "/assets/monsters/m026-construct/model/game/m026-construct-motion-v2.glb?motion=cac9e40d5dd9&tex=a69f4f00c6d6",
     "rig_archetype": "golem",
     "scale": 1.35,
     "foot_origin": true,

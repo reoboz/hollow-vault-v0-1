@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m014-undead/model/game/m014-undead-motion-v2.glb?motion=de1598c7d657",
+    "path": "/assets/monsters/m014-undead/model/game/m014-undead-motion-v2.glb?motion=de1598c7d657&tex=3fa0cdbe783a",
     "rig_archetype": "humanoid",
     "scale": 1,
     "foot_origin": true,

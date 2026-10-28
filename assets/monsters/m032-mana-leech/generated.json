@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m032-mana-leech/model/game/m032-mana-leech-motion-v2.glb?motion=bc1b407adb79",
+    "path": "/assets/monsters/m032-mana-leech/model/game/m032-mana-leech-motion-v2.glb?motion=bc1b407adb79&tex=8c327e1fe01d",
     "rig_archetype": "blob",
     "scale": 1,
     "foot_origin": true,

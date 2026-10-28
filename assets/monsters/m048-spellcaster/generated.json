@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m048-spellcaster/model/game/m048-spellcaster-motion-v2.glb?motion=a2670566a7e4",
+    "path": "/assets/monsters/m048-spellcaster/model/game/m048-spellcaster-motion-v2.glb?motion=a2670566a7e4&tex=26580b44d1f9",
     "rig_archetype": "humanoid",
     "scale": 1,
     "foot_origin": true,

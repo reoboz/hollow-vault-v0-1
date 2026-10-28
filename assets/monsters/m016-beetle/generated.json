@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m016-beetle/model/game/m016-beetle-motion-v2.glb?motion=a93477a46458",
+    "path": "/assets/monsters/m016-beetle/model/game/m016-beetle-motion-v2.glb?motion=a93477a46458&tex=bf60bbf2668d",
     "rig_archetype": "insect",
     "scale": 1,
     "foot_origin": true,

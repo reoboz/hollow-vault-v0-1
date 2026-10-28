@@ -9,7 +9,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m002-rat/model/game/m002-rat-motion-v2.glb?motion=4aaed0e2b25c",
+    "path": "/assets/monsters/m002-rat/model/game/m002-rat-motion-v2.glb?motion=4aaed0e2b25c&tex=da2f518a4196",
     "rig_archetype": "quadruped",
     "scale": 3,
     "foot_origin": true,

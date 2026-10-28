@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m017-mimic-chest/model/game/m017-mimic-chest-motion-v2.glb?motion=b5fc86bf28df",
+    "path": "/assets/monsters/m017-mimic-chest/model/game/m017-mimic-chest-motion-v2.glb?motion=b5fc86bf28df&tex=6ca664f09104",
     "rig_archetype": "special_boss",
     "scale": 1,
     "foot_origin": true,

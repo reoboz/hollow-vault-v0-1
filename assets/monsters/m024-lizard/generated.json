@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m024-lizard/model/game/m024-lizard-motion-v2.glb?motion=fe3b3b013ca5",
+    "path": "/assets/monsters/m024-lizard/model/game/m024-lizard-motion-v2.glb?motion=fe3b3b013ca5&tex=527bb7aa6947",
     "rig_archetype": "large_beast",
     "scale": 1,
     "foot_origin": true,

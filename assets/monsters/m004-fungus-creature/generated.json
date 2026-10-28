@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m004-fungus-creature/model/game/m004-fungus-creature-motion-v2.glb?motion=b8d43625d1d3",
+    "path": "/assets/monsters/m004-fungus-creature/model/game/m004-fungus-creature-motion-v2.glb?motion=b8d43625d1d3&tex=33f29a03b590",
     "rig_archetype": "plant",
     "scale": 0.7,
     "foot_origin": true,

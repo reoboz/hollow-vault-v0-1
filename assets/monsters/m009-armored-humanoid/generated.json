@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m009-armored-humanoid/model/game/m009-armored-humanoid-motion-v2.glb?motion=f9d53cf3cb59",
+    "path": "/assets/monsters/m009-armored-humanoid/model/game/m009-armored-humanoid-motion-v2.glb?motion=f9d53cf3cb59&tex=fad5e35626c1",
     "rig_archetype": "humanoid",
     "scale": 0.7,
     "foot_origin": true,

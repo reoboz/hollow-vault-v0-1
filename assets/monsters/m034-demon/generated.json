@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m034-demon/model/game/m034-demon-motion-v2.glb?motion=fd005d8e6e58",
+    "path": "/assets/monsters/m034-demon/model/game/m034-demon-motion-v2.glb?motion=fd005d8e6e58&tex=0c0b52b80582",
     "rig_archetype": "humanoid",
     "scale": 1,
     "foot_origin": true,

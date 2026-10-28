@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m037-vampire/model/game/m037-vampire-motion-v2.glb?motion=c07b62ad8c3f",
+    "path": "/assets/monsters/m037-vampire/model/game/m037-vampire-motion-v2.glb?motion=c07b62ad8c3f&tex=f2064dd91cf2",
     "rig_archetype": "humanoid",
     "scale": 1,
     "foot_origin": true,

@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m041-death-knight/model/game/m041-death-knight-motion-v2.glb?motion=e98dfe14c701",
+    "path": "/assets/monsters/m041-death-knight/model/game/m041-death-knight-motion-v2.glb?motion=e98dfe14c701&tex=18e47de17c72",
     "rig_archetype": "humanoid",
     "scale": 1,
     "foot_origin": true,

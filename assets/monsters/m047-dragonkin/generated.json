@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m047-dragonkin/model/game/m047-dragonkin-motion-v2.glb?motion=cb627e0fb914",
+    "path": "/assets/monsters/m047-dragonkin/model/game/m047-dragonkin-motion-v2.glb?motion=cb627e0fb914&tex=43adbc9b350d",
     "rig_archetype": "humanoid",
     "scale": 1,
     "foot_origin": true,

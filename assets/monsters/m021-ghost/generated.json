@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m021-ghost/model/game/m021-ghost-motion-v2.glb?motion=a6509f259608",
+    "path": "/assets/monsters/m021-ghost/model/game/m021-ghost-motion-v2.glb?motion=a6509f259608&tex=62e3200654bf",
     "rig_archetype": "spirit",
     "scale": 1,
     "foot_origin": true,

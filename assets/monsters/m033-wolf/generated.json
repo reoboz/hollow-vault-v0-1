@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m033-wolf/model/game/m033-wolf-motion-v2.glb?motion=bece8308896e",
+    "path": "/assets/monsters/m033-wolf/model/game/m033-wolf-motion-v2.glb?motion=bece8308896e&tex=560867cf4a64",
     "rig_archetype": "quadruped",
     "scale": 1,
     "foot_origin": true,

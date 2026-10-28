@@ -9,7 +9,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m003-goblin/model/game/m003-goblin-motion-v2.glb?motion=975602a6df87",
+    "path": "/assets/monsters/m003-goblin/model/game/m003-goblin-motion-v2.glb?motion=975602a6df87&tex=5e28e11c0d57",
     "rig_archetype": "humanoid",
     "scale": 1.75,
     "foot_origin": true,

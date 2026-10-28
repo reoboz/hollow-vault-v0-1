@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m049-ancient-golem/model/game/m049-ancient-golem-motion-v2.glb?motion=aaad5c36f604",
+    "path": "/assets/monsters/m049-ancient-golem/model/game/m049-ancient-golem-motion-v2.glb?motion=aaad5c36f604&tex=a08907832182",
     "rig_archetype": "golem",
     "scale": 1,
     "foot_origin": true,

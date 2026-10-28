@@ -10,7 +10,7 @@
     "game_registration": "configured"
   },
   "model": {
-    "path": "/assets/monsters/m042-lightning-beast/model/game/m042-lightning-beast-motion-v2.glb?motion=776b4b16146d",
+    "path": "/assets/monsters/m042-lightning-beast/model/game/m042-lightning-beast-motion-v2.glb?motion=776b4b16146d&tex=a0f6d7f1c37e",
     "rig_archetype": "large_beast",
     "scale": 1,
     "foot_origin": true,
