@@ -1,0 +1,75 @@
+{
+  "monster_id": "m074-tree-spirit",
+  "game_monster_id": 74,
+  "status": {
+    "model": "ready",
+    "blender": "ready",
+    "rigging": "ready",
+    "animations": "ready",
+    "sounds": "ready",
+    "game_registration": "configured"
+  },
+  "model": {
+    "path": "/assets/monsters/m074-tree-spirit/model/game/m074-tree-spirit-motion-v2.glb?motion=aec7b535594f&tex=07862a745239",
+    "rig_archetype": "plant",
+    "scale": 1,
+    "foot_origin": true,
+    "up_axis": "Y",
+    "forward_axis": "+Z"
+  },
+  "animations": {
+    "idle": {
+      "clip": "Quality_Idle",
+      "loop": true
+    },
+    "walk": {
+      "clip": "Quality_Walk",
+      "loop": true
+    },
+    "attack": {
+      "clip": "Quality_Attack",
+      "loop": false,
+      "attack_sound_time": 0.08,
+      "hit_time": 0.21,
+      "windup_time": 0.08,
+      "recovery_end": 0.36,
+      "playback_speed": 1
+    },
+    "hit": {
+      "clip": "Quality_Hit",
+      "loop": false
+    },
+    "death": {
+      "clip": "Quality_Death",
+      "loop": false,
+      "presentation_duration_ms": 1000
+    }
+  },
+  "sounds": {
+    "attack_voice": [
+      "audio/attack.wav"
+    ],
+    "hit": [],
+    "death": [
+      "audio/death.wav"
+    ]
+  },
+  "motion_library": {
+    "family": "biped",
+    "variant": "axe",
+    "reused": [],
+    "original_model_path": "meshy:Meshy_AI_Elderwood_Sentinel_1028081146_texture.glb",
+    "original_walk_clip": "Quality_Walk",
+    "blend_path": "public/assets/monsters/m074-tree-spirit/model/blender/m074-tree-spirit-motion-v2.blend",
+    "authored_clips": [
+      "Idle",
+      "Walk",
+      "Attack",
+      "Hit",
+      "Death"
+    ],
+    "version": 2,
+    "fps": 30,
+    "authored": true
+  }
+}

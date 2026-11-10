@@ -1,0 +1,75 @@
+{
+  "monster_id": "m077-lava-starfish",
+  "game_monster_id": 77,
+  "status": {
+    "model": "ready",
+    "blender": "ready",
+    "rigging": "ready",
+    "animations": "ready",
+    "sounds": "ready",
+    "game_registration": "configured"
+  },
+  "model": {
+    "path": "/assets/monsters/m077-lava-starfish/model/game/m077-lava-starfish-motion-v2.glb?motion=f52e4264d043&tex=281475085cf3",
+    "rig_archetype": "large_beast",
+    "scale": 1,
+    "foot_origin": true,
+    "up_axis": "Y",
+    "forward_axis": "+Z"
+  },
+  "animations": {
+    "idle": {
+      "clip": "Quality_Idle",
+      "loop": true
+    },
+    "walk": {
+      "clip": "Quality_Walk",
+      "loop": true
+    },
+    "attack": {
+      "clip": "Quality_Attack",
+      "loop": false,
+      "attack_sound_time": 0.08,
+      "hit_time": 0.21,
+      "windup_time": 0.08,
+      "recovery_end": 0.36,
+      "playback_speed": 1
+    },
+    "hit": {
+      "clip": "Quality_Hit",
+      "loop": false
+    },
+    "death": {
+      "clip": "Quality_Death",
+      "loop": false,
+      "presentation_duration_ms": 1000
+    }
+  },
+  "sounds": {
+    "attack_voice": [
+      "audio/attack.wav"
+    ],
+    "hit": [],
+    "death": [
+      "audio/death.wav"
+    ]
+  },
+  "motion_library": {
+    "family": "blob",
+    "variant": "magma",
+    "reused": [],
+    "original_model_path": "meshy:Meshy_AI_Magma_Maw_Starfish_1028081202_texture.glb",
+    "original_walk_clip": "Quality_Walk",
+    "blend_path": "public/assets/monsters/m077-lava-starfish/model/blender/m077-lava-starfish-motion-v2.blend",
+    "authored_clips": [
+      "Idle",
+      "Walk",
+      "Attack",
+      "Hit",
+      "Death"
+    ],
+    "version": 2,
+    "fps": 30,
+    "authored": true
+  }
+}

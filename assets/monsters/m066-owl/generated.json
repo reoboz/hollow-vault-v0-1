@@ -1,0 +1,75 @@
+{
+  "monster_id": "m066-owl",
+  "game_monster_id": 66,
+  "status": {
+    "model": "ready",
+    "blender": "ready",
+    "rigging": "ready",
+    "animations": "ready",
+    "sounds": "ready",
+    "game_registration": "configured"
+  },
+  "model": {
+    "path": "/assets/monsters/m066-owl/model/game/m066-owl-motion-v2.glb?motion=c98ab3795a9c&tex=bceea6b78185",
+    "rig_archetype": "flying",
+    "scale": 1,
+    "foot_origin": true,
+    "up_axis": "Y",
+    "forward_axis": "+Z"
+  },
+  "animations": {
+    "idle": {
+      "clip": "Quality_Idle",
+      "loop": true
+    },
+    "walk": {
+      "clip": "Quality_Walk",
+      "loop": true
+    },
+    "attack": {
+      "clip": "Quality_Attack",
+      "loop": false,
+      "attack_sound_time": 0.08,
+      "hit_time": 0.21,
+      "windup_time": 0.08,
+      "recovery_end": 0.36,
+      "playback_speed": 1
+    },
+    "hit": {
+      "clip": "Quality_Hit",
+      "loop": false
+    },
+    "death": {
+      "clip": "Quality_Death",
+      "loop": false,
+      "presentation_duration_ms": 1000
+    }
+  },
+  "sounds": {
+    "attack_voice": [
+      "audio/attack.wav"
+    ],
+    "hit": [],
+    "death": [
+      "audio/death.wav"
+    ]
+  },
+  "motion_library": {
+    "family": "flying",
+    "variant": "owl",
+    "reused": [],
+    "original_model_path": "meshy:Meshy_AI_Gilded_Moonwing_1028081011_texture.glb",
+    "original_walk_clip": "Quality_Walk",
+    "blend_path": "public/assets/monsters/m066-owl/model/blender/m066-owl-motion-v2.blend",
+    "authored_clips": [
+      "Idle",
+      "Walk",
+      "Attack",
+      "Hit",
+      "Death"
+    ],
+    "version": 2,
+    "fps": 30,
+    "authored": true
+  }
+}
