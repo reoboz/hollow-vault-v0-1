@@ -1,0 +1,103 @@
+{
+  "monster_id": "m174-imp",
+  "game_monster_id": 174,
+  "status": {
+    "model": "ready",
+    "blender": "ready",
+    "rigging": "ready",
+    "animations": "ready",
+    "sounds": "ready",
+    "game_registration": "configured"
+  },
+  "model": {
+    "path": "/assets/monsters/m174-imp/model/game/m174-imp-motion-v2.glb?motion=f15a0d348ef4",
+    "rig_archetype": "flying",
+    "scale": 1,
+    "foot_origin": false,
+    "up_axis": "Y",
+    "forward_axis": "+Z"
+  },
+  "animations": {
+    "idle": {
+      "clip": "Idle",
+      "loop": true
+    },
+    "walk": {
+      "clip": "Move",
+      "loop": true,
+      "playback_speed": 1
+    },
+    "attack": {
+      "clip": "Cast",
+      "loop": false,
+      "source_start": 1.042,
+      "source_end": 1.417,
+      "attack_sound_time": 0.0,
+      "hit_time": 0.295,
+      "windup_time": 0.0,
+      "recovery_end": 0.375,
+      "playback_speed": 1
+    },
+    "hit": {
+      "clip": "Hit",
+      "loop": false
+    },
+    "death": {
+      "clip": "Dead",
+      "loop": false,
+      "presentation_duration_ms": 1200,
+      "playback_speed": 1.333
+    },
+    "attack_close": {
+      "clip": "Attack",
+      "loop": false,
+      "source_start": 0.167,
+      "source_end": 0.542,
+      "attack_sound_time": 0.078,
+      "hit_time": 0.208,
+      "windup_time": 0.078,
+      "recovery_end": 0.375,
+      "playback_speed": 1
+    },
+    "attack_far": {
+      "clip": "Cast",
+      "loop": false,
+      "source_start": 1.042,
+      "source_end": 1.417,
+      "attack_sound_time": 0.0,
+      "hit_time": 0.295,
+      "windup_time": 0.0,
+      "recovery_end": 0.375,
+      "playback_speed": 1
+    }
+  },
+  "sounds": {
+    "attack_voice": [
+      "audio/attack.wav"
+    ],
+    "hit": [],
+    "death": [
+      "audio/death.wav"
+    ]
+  },
+  "motion_library": {
+    "family": "flying",
+    "variant": "arcane_imp",
+    "reused": [],
+    "version": 2,
+    "fps": 24,
+    "authored": true,
+    "original_model_path": "Meshy_AI_Arcane_Imp_1116070414_texture.glb",
+    "original_walk_clip": "Move",
+    "blend_path": "art/monsters/monster_build.py",
+    "authored_clips": [
+      "Idle",
+      "Move",
+      "Attack",
+      "Cast",
+      "Hit",
+      "Dead",
+      "Spawn"
+    ]
+  }
+}
