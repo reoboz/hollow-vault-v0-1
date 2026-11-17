@@ -1,0 +1,81 @@
+{
+  "monster_id": "m180-coffin-revenant",
+  "game_monster_id": 180,
+  "status": {
+    "model": "ready",
+    "blender": "ready",
+    "rigging": "ready",
+    "animations": "ready",
+    "sounds": "ready",
+    "game_registration": "configured"
+  },
+  "model": {
+    "path": "/assets/monsters/m180-coffin-revenant/model/game/m180-coffin-revenant-motion-v2.glb?motion=44cd0bb9d505",
+    "rig_archetype": "humanoid",
+    "scale": 1,
+    "foot_origin": false,
+    "up_axis": "Y",
+    "forward_axis": "+Z"
+  },
+  "animations": {
+    "idle": {
+      "clip": "Idle",
+      "loop": true
+    },
+    "walk": {
+      "clip": "Move",
+      "loop": true,
+      "playback_speed": 1
+    },
+    "attack": {
+      "clip": "Attack",
+      "loop": false,
+      "source_start": 0.375,
+      "source_end": 0.75,
+      "attack_sound_time": 0.078,
+      "hit_time": 0.208,
+      "windup_time": 0.078,
+      "recovery_end": 0.375,
+      "playback_speed": 1
+    },
+    "hit": {
+      "clip": "Hit",
+      "loop": false
+    },
+    "death": {
+      "clip": "Dead",
+      "loop": false,
+      "presentation_duration_ms": 1200,
+      "playback_speed": 1.667
+    }
+  },
+  "sounds": {
+    "attack_voice": [
+      "audio/attack.wav"
+    ],
+    "hit": [],
+    "death": [
+      "audio/death.wav"
+    ]
+  },
+  "motion_library": {
+    "family": "humanoid",
+    "variant": "coffin_revenant",
+    "reused": [],
+    "version": 2,
+    "fps": 24,
+    "authored": true,
+    "original_model_path": "Meshy_AI_Coffinbound_Revenant_1117132128_texture.glb",
+    "original_walk_clip": "Move",
+    "blend_path": "art/monsters/monster_build.py",
+    "authored_clips": [
+      "Idle",
+      "Move",
+      "Attack",
+      "Special",
+      "Hit",
+      "Dead",
+      "Spawn"
+    ]
+  }
+}
