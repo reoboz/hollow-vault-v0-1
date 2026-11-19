@@ -1,0 +1,1 @@
+const a="dungeon-stone",e={UNCOMMON:1,RARE:2,EPIC:3,LEGENDARY:4},t={id:a,name:"ダンジョン石",category:"material",description:"使うと、刻まれたMODつきでそのダンジョンへ一度だけ入れる。探索を始めると消費され、死亡・撤退・クリアでも戻らない。",manaCost:0,icon:"stone",inventoryCategory:"keyItem",materialTier:"special",maxStack:1,capacityCost:0,discardable:!1};export{a as D,e as a,t as b};
